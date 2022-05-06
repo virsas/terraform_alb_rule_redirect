@@ -5,3 +5,4 @@ variable "dstProto" { default = "" }
 variable "dstHost" { default = "" }
 variable "dstPath" { default = "" }
 variable "srcHost" { default = "" }
+variable "priority" { default = 0 }

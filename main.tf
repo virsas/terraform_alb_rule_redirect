@@ -4,6 +4,7 @@ provider "aws" {
 
 resource "aws_lb_listener_rule" "redirect" {
   listener_arn = var.listener
+  priority = var.priority
 
   action {
     type          = "redirect"

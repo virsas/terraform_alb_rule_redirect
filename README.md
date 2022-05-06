@@ -30,5 +30,6 @@ module "alb_rl_rd_example_2_google" {
   dstHost = "www.google.com"
   dstPath = "/"
   srcHost = "www.example.org"
+  priority = 2
 }
 ```
